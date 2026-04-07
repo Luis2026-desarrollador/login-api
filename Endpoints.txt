@@ -1,0 +1,8 @@
+ENDPOINTS DE LA API DE LOGIN
+
+1. POST /login
+   - Descripción: Ruta para autenticar usuarios.
+   - Recibe: JSON con las propiedades "usuario" y "password".
+   - Responde:
+     - Si la autenticación es correcta: { "mensaje": "Autenticación satisfactoria" }
+     - Si la autenticación falla: { "error": "Error de autenticación" }
